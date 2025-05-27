@@ -2,6 +2,7 @@
 Este projeto foi desenvolvido como parte da disciplina Programação Web 1, com o objetivo de praticar a criação de interfaces web. A aplicação permite visualizar de forma simples e organizada os valores gastos, valores ganhos e o saldo geral.
 
 # Código
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -64,7 +65,7 @@ Este projeto foi desenvolvido como parte da disciplina Programação Web 1, com 
     .red { color: #ff4c4c; }
     .gray { color: #999; }
 
-    .content {
+   .content {
       display: flex;
       gap: 20px;
       margin-top: 20px;
@@ -99,7 +100,7 @@ Este projeto foi desenvolvido como parte da disciplina Programação Web 1, com 
       font-weight: bold;
     }
 
-    .transactions {
+  .transactions {
       background-color: #202024;
       padding: 20px;
       border-radius: 10px;
@@ -130,7 +131,7 @@ Este projeto foi desenvolvido como parte da disciplina Programação Web 1, com 
       cursor: pointer;
     }
 
-    canvas {
+  canvas {
       max-width: 100%;
       background-color: #121214;
     }
